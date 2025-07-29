@@ -1,0 +1,75 @@
+PORTFOLIO/
+├── .idea/                            // IDE config files (for JetBrains IDEs like WebStorm)
+│   ├── .gitignore
+│   ├── misc.xml
+│   ├── modules.xml
+│   ├── portfolio.iml
+│   └── vcs.xml
+
+├── assets/                           // Your custom project assets (styles, scripts, images)
+│   ├── css/
+│   │   └── main.css                  // Your custom CSS styling
+│   ├── img/                          // Folder to store images (e.g., profile, projects)
+│   └── js/
+│       └── main.js                   // Your custom JavaScript for interactivity
+
+├── vendor/                           // Third-party libraries & frameworks (manually added)
+│   ├── aos/                          // Animate On Scroll (AOS) library for scroll animations
+│   │   ├── aos.cjs.js
+│   │   ├── aos.esm.js
+│   │   ├── aos.js
+│   │   └── aos.js.map
+
+│   ├── bootstrap/                    // Bootstrap framework (for responsive design)
+│   │   ├── css/
+│   │   │   ├── bootstrap.min.css
+│   │   │   ├── bootstrap.css.map
+│   │   │   ├── bootstrap.rtl.css     // Right-to-left version of Bootstrap (optional)
+│   │   │   ├── bootstrap-grid.css    // Grid layout styles
+│   │   │   ├── bootstrap-reboot.css  // Resets browser default styles
+│   │   │   ├── bootstrap-utilities.css
+│   │   │   └── *.map                 // Source maps for debugging
+│   │   └── js/
+│   │       ├── bootstrap.bundle.min.js  // Bootstrap with Popper.js
+│   │       ├── bootstrap.esm.js
+│   │       └── bootstrap.min.js
+
+│   ├── bootstrap-icons/             // Bootstrap Icons library
+│   │   ├── fonts/
+│   │   │   ├── bootstrap-icons.woff
+│   │   │   └── bootstrap-icons.woff2
+│   │   ├── bootstrap-icons.css
+│   │   └── bootstrap-icons.scss
+
+│   ├── glightbox/                   // GLightbox for image lightbox/modal effect
+│   │   ├── css/
+│   │   │   └── glightbox.min.css
+│   │   └── js/
+│   │       └── glightbox.min.js
+
+│   ├── imagesloaded/                // Optional: Detect when images are fully loaded
+│
+│   ├── isotope-layout/              // Isotope for filterable and sortable grid layouts
+│   │   ├── isotope.pkgd.js
+│   │   └── isotope.pkgd.min.js
+
+│   ├── php-email-form/              // PHP-based form validation for contact forms
+│   │   └── validate.js
+
+│   ├── purecounter/                 // PureCounter for animated number counters
+│   │   ├── purecounter_vanilla.js
+│   │   └── purecounter_vanilla.js.map
+
+│   ├── swiper/                      // Swiper.js for responsive sliders/carousels
+│   │   ├── swiper-bundle.min.css
+│   │   ├── swiper-bundle.min.js
+│   │   └── swiper-bundle.min.js.map
+
+│   ├── typed.js/                    // Typed.js for animated typing text effect
+│   │   ├── typed.cjs
+│   │   ├── typed.module.js
+│   │   ├── typed.umd.js
+│   │   └── *.map                    // Source maps for each module format
+
+│   └── waypoints/                   // Waypoints for triggering events when scrolling to elements
+│       └── noframework.waypoints.js
